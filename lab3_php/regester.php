@@ -168,22 +168,22 @@ function test_input($data) {
         
 <?php
 echo "<h2>Your Input:</h2>";
-echo $fname;
+echo "Name: ".$fname;
 echo "<br>";
-echo $email;
+echo "Email:".$email;
 echo "<br>";
-echo $Group;
+echo "Group:".$Group;
 echo "<br>";
-echo $comment ;
+echo "class_details:".$comment ;
 echo "<br>";
-echo $gender;
+echo "gender". $gender;
 echo "<br>";
 foreach($checked1 as $key => $value)
 {
   echo  $value.'<br>';
 }
 echo "<br>";
-echo  $agree;
+echo "agree:". $agree;
 
 
 
