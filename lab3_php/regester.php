@@ -105,17 +105,17 @@ function test_input($data) {
             <table style="width:100% ;">
                 <tr>
                   <td> <label for="fname"> <span style="color: red;">*</span>Your Name</label></td>
-                  <td> <input type="text" id="fname" name="fname" <?php echo $fname;?>>
+                  <td> <input type="text" id="fname" name="fname"value="<?php echo $fname;?>">
                         <span class="error"  style="color: red;"> <?php echo $fnameerr;?></span></td>
                 </tr>
                 <tr>
                   <td><label for="email"><span style="color: red;">*</span>E-mail  </label></td>
-                  <td><input type="email" id="email" name="email"size="30px"<?php echo $email;?>>
+                  <td><input type="email" id="email" name="email"size="30px" value="<?php echo $email;?>">
                       <span class="error"  style="color: red;"> <?php echo $emailerr;?></span></td>
                 </tr>
                 <tr>
                   <td> <label for="Group" ><span style="color: red;">*</span>Group# </label></td>
-                  <td><input type="text" id="Group" name="Group" size="30px"<?php echo $Group;?>>
+                  <td><input type="text" id="Group" name="Group" size="30px"value="<?php echo $Group;?>">
                       <span class="error" style="color: red;"> <?php echo $Grouperr;?></span></td>
                 </tr>
                 <tr>
@@ -129,7 +129,7 @@ function test_input($data) {
                      <input type="radio" id="Male" name="gender" value="Male">
                      <label for="Male">Male</label><br>
                      <input type="radio" id="Female" name="gender" value="Female">
-                     <label for="Female">Female <?php echo $gender;?>
+                     <label for="Female">Female 
                            <span class="error" style="color: red;"> <?php echo $gendererr;?></span></label><br>
                   </td>
                 <tr>
@@ -154,7 +154,7 @@ function test_input($data) {
                     
                     <td colspan="2" style="    text-align: center;  ">
                         <label for="agree"><span style="color: red;">*</span> agree  </label>
-                        <input type="checkbox" id="agree" name="agree"  <?php echo $agree;?>>
+                        <input type="checkbox" id="agree" name="agree" value=" <?php echo $agree;?>">
                            <span class="error" style="color: red;"> <?php echo $agreeerr;?></span>
                       </td>
                   </tr>
